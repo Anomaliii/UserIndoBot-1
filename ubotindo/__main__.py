@@ -78,7 +78,7 @@ buttons = [
             url="t.me/ErinaChan_Bot?startgroup=true"),
         InlineKeyboardButton(
             text="Gban Logs 🚫",
-            url="https://t.me/UserIndoBotBannedLog"),
+            url="https://t.me/ErinaLogBanned"),
     ]]
 
 
