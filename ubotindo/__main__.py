@@ -74,17 +74,17 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥",
+            text="👥 Add to Group 👥",
             url="t.me/ChisakiKaiBot?startgroup=true"),
         InlineKeyboardButton(
-            text="Gban Logs 🚫",
+            text="🚫 Gban Logs 🚫",
             url="https://t.me/zerobotlog"),
     ]]
 
 
-buttons += [[InlineKeyboardButton(text="Help & Commands ❔",
+buttons += [[InlineKeyboardButton(text="❔ Help & Commands ❔",
                                   url=f"t.me/{dispatcher.bot.username}?start=help"),
-             InlineKeyboardButton(text="Support Group 🎗️",
+             InlineKeyboardButton(text="🎗️ Support Group 🎗️",
                                   url="https://t.me/ZeroBotSupport"),
              ]]
 
