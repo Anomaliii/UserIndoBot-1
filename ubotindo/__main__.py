@@ -58,7 +58,7 @@ PM_START_TEXT = f"""
 Hey there! my name is *{dispatcher.bot.first_name}*.
 Any questions on how to use me? use /help
 
-Join Our [Group](https://t.me/userbotindo) If You wanna Report Issue 🙂
+Join Our [Group](https://t.me/ZeroBotSupport) If You wanna Report Issue 🙂
 
 I'm here to make your group management fun and easy!
 I have lots of handy features ☺️ such as :
@@ -66,7 +66,7 @@ I have lots of handy features ☺️ such as :
 • flood control.         • Note'S keeping system.
 • Warning System.   • Predetermined Filters.
 
-*Managed With ❤️ By :* [UserbotIndo Team](https://t.me/userbotindo)
+*Managed With ❤️ By :* [Chisaki Kai](https://t.me/ZeroBotSupport)
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -75,17 +75,17 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Add to Group 👥",
-            url="t.me/ErinaChan_Bot?startgroup=true"),
+            url="t.me/ChisakiKaiBot?startgroup=true"),
         InlineKeyboardButton(
             text="Gban Logs 🚫",
-            url="https://t.me/ErinaLogBanned"),
+            url="https://t.me/zerobotlog"),
     ]]
 
 
 buttons += [[InlineKeyboardButton(text="Help & Commands ❔",
                                   url=f"t.me/{dispatcher.bot.username}?start=help"),
              InlineKeyboardButton(text="Support Group 🎗️",
-                                  url="https://t.me/userbotindo"),
+                                  url="https://t.me/ZeroBotSupport"),
              ]]
 
 
@@ -251,7 +251,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://www.pixiv.net/en/artworks/77650998",
+                "https://telegra.ph/file/841b74b50e366d6921d4d.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
